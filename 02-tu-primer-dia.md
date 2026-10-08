@@ -86,7 +86,7 @@ permiso**. No es un fallo: **la decisión es tuya**.
 Si le contestas que sí y que no vuelva a preguntar, lo recuerda. Así que las preguntas se acaban en
 los primeros minutos.
 
-## Lo que ya está en tu equipo no se toca
+## Lo que ya está en tu computador no se toca
 
 Si una carpeta de tu proyecto ya tiene trabajo tuyo sin guardar, **ArmonIA no la cambia** y te lo
 dice. Nunca borra nada.
