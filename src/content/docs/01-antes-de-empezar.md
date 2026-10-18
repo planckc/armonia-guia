@@ -1,11 +1,8 @@
 ---
-titulo: Antes de empezar
-title: Antes de empezar
-publica-en: [publico]
-firmado: David 2026-10-06
+title: "Antes de empezar"
+sidebar:
+  order: 1
 ---
-
-# Antes de empezar
 
 Vas a trabajar en tus proyectos con **tu propio agente de Claude**: un asistente que trabaja dentro
 de la carpeta del proyecto. Él hace la parte técnica y tú decides.
@@ -23,7 +20,9 @@ para tu proyecto.
 **Cada persona necesita la suya.** Una cuenta de Claude no se comparte, ni dentro de una familia ni
 dentro de un equipo.
 
-> Sin ella, el editor queda instalado y no hay nadie con quien trabajar.
+:::note
+Sin ella, el editor queda instalado y no hay nadie con quien trabajar.
+:::
 
 ## 2. Una cuenta de GitHub
 

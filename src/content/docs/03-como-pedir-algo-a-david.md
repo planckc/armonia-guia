@@ -1,11 +1,8 @@
 ---
-titulo: Cómo pedir algo a David
-title: Cómo pedir algo a David
-publica-en: [publico]
-firmado: David 2026-10-06
+title: "Cómo pedir algo a David"
+sidebar:
+  order: 3
 ---
-
-# Cómo pedir algo a David
 
 **Díselo a tu agente, con una frase:** *«pídele a David que…»*, y para qué lo necesitas.
 

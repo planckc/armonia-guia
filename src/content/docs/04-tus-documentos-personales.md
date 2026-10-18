@@ -1,11 +1,8 @@
 ---
-titulo: Tus documentos personales
-title: Tus documentos personales
-publica-en: [publico]
-firmado: David 2026-10-06
+title: "Tus documentos personales"
+sidebar:
+  order: 4
 ---
-
-# Tus documentos personales
 
 Contratos, facturas, certificados, cartas, cualquier papel con tus datos: **los originales se quedan
 en tu Drive. En el proyecto, nunca.**

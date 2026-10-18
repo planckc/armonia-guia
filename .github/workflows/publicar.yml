@@ -1,0 +1,32 @@
+# Construye la guía con Astro Starlight y la publica en GitHub Pages (armonia.3spark.net).
+# Pieza del catálogo: «guia-publica-armonia-pages». El contenido llega de kb-publica (publicar.mjs).
+name: Publicar la guía
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: withastro/action@v6.1.3
+        with:
+          node-version: 22
+          package-manager: npm
+  publicar:
+    needs: construir
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - id: despliegue
+        uses: actions/deploy-pages@v4

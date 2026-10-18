@@ -1,11 +1,8 @@
 ---
-titulo: Guía de ArmonIA
-title: Guía de ArmonIA
-publica-en: [publico]
-firmado: David 2026-10-06
+title: "Guía de ArmonIA"
+sidebar:
+  order: 0
 ---
-
-# Guía de ArmonIA
 
 ArmonIA te acompaña para trabajar en tus proyectos con tu propio asistente de Claude: él hace la parte técnica y tú
 decides. Esta guía te lleva de la mano, paso a paso.

@@ -1,0 +1,11 @@
+{
+  "name": "armonia-guia",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "astro build", "dev": "astro dev" },
+  "dependencies": {
+    "@astrojs/starlight": "0.42.5",
+    "astro": "7.3.5",
+    "sharp": "0.35.5"
+  }
+}

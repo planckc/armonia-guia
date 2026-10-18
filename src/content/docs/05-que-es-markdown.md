@@ -1,11 +1,8 @@
 ---
-titulo: Qué es Markdown
-title: Qué es Markdown
-publica-en: [publico]
-firmado: David 2026-10-06
+title: "Qué es Markdown"
+sidebar:
+  order: 5
 ---
-
-# Qué es Markdown
 
 **No necesitas aprenderlo.** Tu agente escribe así, y esta página está aquí solo por si te pica la
 curiosidad o te encuentras un archivo y quieres entender lo que ves.

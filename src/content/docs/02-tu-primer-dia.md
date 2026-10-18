@@ -1,11 +1,8 @@
 ---
-titulo: Tu primer día
-title: Tu primer día
-publica-en: [publico]
-firmado: David 2026-10-06
+title: "Tu primer día"
+sidebar:
+  order: 2
 ---
-
-# Tu primer día
 
 Tienes las dos cuentas y has instalado ArmonIA ([Antes de empezar](01-antes-de-empezar.html)).
 Esto es lo que pasa a continuación, en orden. **Tarda unos minutos**, y casi todo lo hace ArmonIA.
@@ -34,8 +31,10 @@ Si ya tienes Git, o ya tienes Claude Code, ArmonIA lo detecta y se salta ese pas
 Cuando se instala Claude Code, **tienes que entrar con tu cuenta de Claude**: se abre una ventana del
 navegador y entras como en cualquier sitio.
 
-> **ArmonIA no puede hacer este paso por ti, ni saber si lo has hecho.** Si al final del recorrido
-> Claude no te saluda, lo más probable es que falte esto, o que la cuenta no tenga plan de pago.
+:::note
+**ArmonIA no puede hacer este paso por ti, ni saber si lo has hecho.** Si al final del recorrido
+Claude no te saluda, lo más probable es que falte esto, o que la cuenta no tenga plan de pago.
+:::
 
 ## Tu código
 
@@ -48,12 +47,18 @@ proyectos son tuyos.
    pulsa **Descargar**.
 3. Te pedirá entrar con tu **cuenta de GitHub** y descargará tus proyectos.
 
-> **El código vale 7 días.** Si caducó, pídele otro a David.
+:::note
+**El código vale 7 días.** Si caducó, pídele otro a David.
+:::
 
-> **Va en la caja de ArmonIA**, no en el chat de Claude ni en la web de Claude: ahí no sirve.
+:::note
+**Va en la caja de ArmonIA**, no en el chat de Claude ni en la web de Claude: ahí no sirve.
+:::
 
-> **Si ese código no te lo mandó David, no lo uses.** Borra el correo y avísale. ArmonIA solo
-> descarga proyectos de David, pero más vale no empezar por ahí.
+:::note
+**Si ese código no te lo mandó David, no lo uses.** Borra el correo y avísale. ArmonIA solo
+descarga proyectos de David, pero más vale no empezar por ahí.
+:::
 
 ## «¿Confías en los autores de los archivos de esta carpeta?»
 
@@ -64,8 +69,10 @@ carpeta. Esta la has traído tú.
    con cada proyecto nuevo.
 2. Pulsa **Sí, confío en los autores**.
 
-> **Si dices que no**, el editor se queda a medias: Claude no podrá trabajar en esa carpeta y verás
-> una barra amarilla arriba. Se puede cambiar después, pero es más fácil decir que sí ahora.
+:::note
+**Si dices que no**, el editor se queda a medias: Claude no podrá trabajar en esa carpeta y verás
+una barra amarilla arriba. Se puede cambiar después, pero es más fácil decir que sí ahora.
+:::
 
 ## Y ahora, ¿qué le digo?
 
