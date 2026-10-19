@@ -33,7 +33,7 @@ Sin el plan de Claude, todo queda instalado y no hay nadie con quien trabajar.
 digital que Windows reconoce (es nuevo, de un equipo pequeño). Solo instala programas oficiales de
 Microsoft, de Git y de Anthropic, y no te pide ser administrador.
 
-1. **Descárgalo** con este enlace: **[go.3spark.net/armonia-instalador](https://go.3spark.net/armonia-instalador)**.
+1. **Descárgalo** con este enlace: **[ArmonIA-instalador.exe](https://github.com/planckc/armonia-guia/releases/latest/download/ArmonIA-instalador.exe)**.
    Pulsa el enlace: **no lo busques en Google ni en Bing**, porque lo que sale ahí no es el
    instalador.
 2. El navegador dirá que el archivo **«no se descarga habitualmente»**:
