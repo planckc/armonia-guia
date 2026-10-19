@@ -4,80 +4,87 @@ sidebar:
   order: 2
 ---
 
-Tienes las dos cuentas y has instalado ArmonIA ([Antes de empezar](01-antes-de-empezar.html)).
-Esto es lo que pasa a continuación, en orden. **Tarda unos minutos**, y casi todo lo hace ArmonIA.
+Ya instalaste ArmonIA ([Antes de empezar](01-antes-de-empezar.html)) y se abrió VS Code. Esto es lo
+que pasa a continuación, en orden. **Tarda unos minutos**, y casi todo lo hace ArmonIA.
 
-## El recorrido
+## El panel de ArmonIA
 
-La primera vez que abres VS Code, **ArmonIA te saluda sola** con un recorrido de siete pasos. Si no
-lo ves, pulsa **F1**, escribe `ArmonIA` y elige **"ArmonIA: Empezar aquí"**.
+Pulsa el **ícono de ArmonIA** en la barra de la izquierda. Se abre un panel con tres partes:
 
-| # | Paso | Lo que haces tú |
-|:-:|---|---|
-| 1 | Antes de empezar: dos cuentas | Nada: es un recordatorio |
-| 2 | Poner VS Code en español | Pulsar el botón. **Hará falta cerrar y volver a abrir VS Code una vez**; el recorrido sigue donde lo dejaste |
-| 3 | Instalar Git | Pulsar el botón. Si Windows pregunta *«¿Quieres permitir que esta aplicación haga cambios?»*, decir **sí** |
-| 4 | Instalar Claude y entrar con tu cuenta | **Entrar con tu cuenta de Claude** — ver abajo |
-| 5 | Tengo un código | Escribir el código de 8 letras y números del correo — ver abajo |
-| 6 | La pregunta de la ventana nueva | Decir **sí** — ver abajo |
-| 7 | Habla con tu armonizador | Pegar la primera frase y pulsar Enter |
+| Parte | Para qué |
+|---|---|
+| **Requisitos** | Lo que hace falta en tu computador. Lo que está bien sale en verde; lo que falta, con un botón que lo arregla |
+| **Mis proyectos** | Tus proyectos: los que te esperan, los que ya están en tu computador y los que puedes descargar |
+| **Mensajes** | Lo que te escriben en tus proyectos, y tus tareas |
 
-Si ya tienes Git, o ya tienes Claude Code, ArmonIA lo detecta y se salta ese paso.
+Si no ves el panel, pulsa **F1**, escribe `ArmonIA` y elige **"ArmonIA: Abrir el panel de ArmonIA"**.
 
----
+## 1. Requisitos: todo en verde
 
-## El paso que solo puedes hacer tú: entrar en Claude
+Ve fila por fila y pulsa el botón de lo que falte:
 
-Cuando se instala Claude Code, **tienes que entrar con tu cuenta de Claude**: se abre una ventana del
-navegador y entras como en cualquier sitio.
+- **Cuenta de GitHub** → **Entrar con GitHub**. Se abre el navegador y entras con tu cuenta, **una
+  sola vez**. VS Code la recuerda.
+- **Claude Code**: ya lo puso el instalador. Falta lo que solo puedes hacer tú: **entrar con tu
+  cuenta de Claude** (ver abajo).
+- **Git**, **Tu nombre en Git** y **VS Code en español**: si alguna falta, su botón lo arregla. Poner
+  VS Code en español pide **cerrarlo y volver a abrirlo una vez**.
+- **Confianza en tu carpeta de ArmonIA**: el paso siguiente.
 
-:::note
-**ArmonIA no puede hacer este paso por ti, ni saber si lo has hecho.** Si al final del recorrido
-Claude no te saluda, lo más probable es que falte esto, o que la cuenta no tenga plan de pago.
-:::
+## 2. Confía una vez en tu carpeta de ArmonIA
 
-## Tu código
+Tus proyectos se guardan en la carpeta **ws** del disco **C:**. VS Code pregunta, con cada carpeta
+nueva, si confías en ella; si no le contestas, abre el proyecto en **modo restringido** y Claude no
+puede trabajar.
 
-David te manda por correo un **código de 8 letras y números**, por ejemplo `K7Q2-9XPD`. Dice qué
-proyectos son tuyos.
+Por eso, **antes de abrir tu primer proyecto**, ArmonIA te propone confiar **una sola vez** en esa
+carpeta, y vale para todos tus proyectos:
 
-1. En VS Code, pulsa **"ArmonIA: Tengo un código"** y **escríbelo**. Da igual mayúsculas o
-   minúsculas, y el guion es opcional. Si lo copiaste del correo, ya aparece escrito.
-2. Antes de descargar nada, ArmonIA te enseña **para quién es y qué proyectos trae**. Si es correcto,
-   pulsa **Descargar**.
-3. Te pedirá entrar con tu **cuenta de GitHub** y descargará tus proyectos.
+1. Pulsa **Confiar ahora (una sola vez)**.
+2. En la pantalla de confianza de VS Code, pulsa **Agregar carpeta**.
+3. En la ventana que se abre, ve a **Este equipo** → **Disco local (C:)**. Haz **un clic** en **ws**
+   (sin entrar) y pulsa **Carpeta de confianza**.
 
 :::note
-**El código vale 7 días.** Si caducó, pídele otro a David.
+**Si ves arriba una banda de «modo restringido»**, tu proyecto **no se ha borrado**: VS Code
+espera que le digas que la carpeta es tuya. Pulsa **"ArmonIA: Confiar en tu carpeta de ArmonIA (cómo hacerlo)"**
+y sigue los mismos tres pasos.
+:::
+
+## 3. Tus proyectos
+
+Hay dos maneras de que te llegue un proyecto, y las dos acaban en **Mis proyectos**:
+
+- **Te invitaron por GitHub.** Sale arriba, en **Te esperan**. Pulsa **Aceptar y abrir**: ArmonIA
+  acepta la invitación, lo descarga y lo abre. No necesitas código.
+- **Te llegó un código por correo** (8 letras y números, por ejemplo `K7Q2-9XPD`). Pulsa **F1** y
+  elige **"ArmonIA: Tengo un código"**. Antes de descargar nada, ArmonIA te enseña **para quién es y
+  qué proyectos trae**; si es correcto, pulsa **Descargar**. El código vale 7 días; si caducó, pídele
+  otro a David.
+
+:::note
+**Solo salen proyectos de ArmonIA**: los de David, los tuyos y los de las organizaciones de las que
+formas parte. Un proyecto de GitHub que no es de ArmonIA no aparece.
 :::
 
 :::note
-**Va en la caja de ArmonIA**, no en el chat de Claude ni en la web de Claude: ahí no sirve.
+**Si un código no te lo mandó David, no lo uses.** Borra el correo y avísale.
 :::
+
+## 4. Entra en Claude: el paso que solo puedes hacer tú
+
+La primera vez que se abre Claude, **tienes que entrar con tu cuenta de Claude**: se abre el navegador
+y entras como en cualquier sitio.
 
 :::note
-**Si ese código no te lo mandó David, no lo uses.** Borra el correo y avísale. ArmonIA solo
-descarga proyectos de David, pero más vale no empezar por ahí.
+**ArmonIA no puede hacer este paso por ti, ni saber si lo has hecho.** Si Claude no te saluda, lo
+más probable es que falte esto, o que tu cuenta no tenga plan de pago.
 :::
 
-## «¿Confías en los autores de los archivos de esta carpeta?»
+## 5. Habla con tu armonizador
 
-Cuando se abra tu proyecto, VS Code hará esa pregunta. **Es normal y la hace siempre**, con cualquier
-carpeta. Esta la has traído tú.
-
-1. Marca la casilla de confiar también en la **carpeta superior**: así no te lo vuelve a preguntar
-   con cada proyecto nuevo.
-2. Pulsa **Sí, confío en los autores**.
-
-:::note
-**Si dices que no**, el editor se queda a medias: Claude no podrá trabajar en esa carpeta y verás
-una barra amarilla arriba. Se puede cambiar después, pero es más fácil decir que sí ahora.
-:::
-
-## Y ahora, ¿qué le digo?
-
-Es la pregunta normal la primera vez, y no hace falta saber la respuesta. ArmonIA abre a Claude y
-**te copia la primera frase**: pégala en el recuadro de Claude y pulsa Enter.
+Tu armonizador es el agente de Claude de tu proyecto. Pulsa **"ArmonIA: Hablar con mi armonizador"**:
+abre a Claude y te copia la primera frase. Pégala en el recuadro de Claude y pulsa Enter.
 
 A partir de ahí, háblale como le escribirías a una persona que acaba de entrar a trabajar contigo:
 pídele que te cuente qué hay, que te explique algo, o que haga lo que necesites. **No hace falta
@@ -85,29 +92,25 @@ escribir bien ni usar palabras técnicas.**
 
 ---
 
+## Mensajes
+
+En **Mensajes** ves lo que se escribe en cada uno de tus proyectos, los más recientes primero, y los
+ya cerrados aparte. **Tus tareas** abre lo que te toca hacer a ti.
+
 ## Claude te va a pedir permiso. Es a propósito
 
 Las primeras veces que Claude haga algo —guardar un archivo, subir tus cambios— **te pedirá
-permiso**. No es un fallo: **la decisión es tuya**.
-
-Si le contestas que sí y que no vuelva a preguntar, lo recuerda. Así que las preguntas se acaban en
-los primeros minutos.
+permiso**. No es un fallo: **la decisión es tuya**. Si le contestas que sí y que no vuelva a
+preguntar, lo recuerda, así que las preguntas se acaban en los primeros minutos.
 
 ## Lo que ya está en tu computador no se toca
 
-Si una carpeta de tu proyecto ya tiene trabajo tuyo sin guardar, **ArmonIA no la cambia** y te lo
-dice. Nunca borra nada.
+ArmonIA **nunca borra nada** en tu computador. Si una carpeta de tu proyecto ya tiene trabajo tuyo,
+no la cambia y te lo dice.
 
-## Si algo se queda a medias
+## Más adelante
 
-Pulsa **F1** y elige **"ArmonIA: ¿Qué me falta?"**: te dice qué falta y lo arregla.
-
-Y si te atascas, **contesta al correo de David**.
-
-## Más adelante: proyectos nuevos y cambios
-
-**Para traer lo nuevo de tus proyectos**, pulsa **F1** y elige
-**"ArmonIA: Actualizar mis proyectos"**. No necesitas el código: ArmonIA ya sabe cuáles son.
-
-**Si David te invita a otro proyecto**, te manda un código nuevo. Úsalo igual que el primero: lo que
-ya tienes no se toca.
+- **Para traer lo nuevo de tus proyectos**: **"ArmonIA: Actualizar mis proyectos"**.
+- **Si te invitan a otro proyecto**, aparece en **Te esperan**. Lo que ya tienes no se toca.
+- **Si algo se queda a medias**: **"ArmonIA: ¿Qué me falta?"**, o mira
+  [Si algo falla](06-si-algo-falla.html).
