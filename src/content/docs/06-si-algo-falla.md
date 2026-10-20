@@ -42,8 +42,11 @@ Escribe **ArmonIA** en el menú Inicio y ábrelo desde ahí.
 ## En VS Code
 
 **VS Code está en inglés.**
-En el panel de ArmonIA, en **Requisitos**, pulsa **Poner en español**. VS Code pide cerrarse y volver
-a abrirse una vez.
+En el panel de ArmonIA, en **Comandos → Requisitos**, pulsa **VS Code en español**. VS Code pide
+cerrarse y volver a abrirse una vez.
+
+**Sale una pantalla en inglés: «Sign in to use GitHub Copilot».**
+Copilot no es parte de ArmonIA. Pulsa **Continue without Signing In**.
 
 **No veo el ícono de ArmonIA en la barra de la izquierda.**
 Pulsa **F1**, escribe `ArmonIA` y elige **"ArmonIA: Abrir el panel de ArmonIA"**. Si no aparece
@@ -51,17 +54,13 @@ ninguna opción de ArmonIA, vuelve a abrir el instalador: pone lo que falte.
 
 **Arriba sale una banda de «modo restringido» y parece que se borró todo.**
 **No se ha borrado nada.** VS Code espera que le digas que la carpeta es tuya, y mientras tanto Claude
-no puede trabajar. Pulsa **"ArmonIA: Confiar en tu carpeta de ArmonIA (cómo hacerlo)"** y sigue los
-pasos de [Tu primer día](02-tu-primer-dia.html): **Agregar carpeta** → **Este equipo** → **Disco local
-(C:)** → un clic en **ws** → **Carpeta de confianza**.
-
-**Al pulsar «Agregar carpeta» se abre una carpeta que no conozco.**
-Es normal: arriba a la izquierda pulsa **Este equipo**, luego **Disco local (C:)**, haz **un clic** en
-**ws** (sin entrar en ella) y pulsa **Carpeta de confianza**.
+no puede trabajar. Pulsa **"ArmonIA: Confiar en tu carpeta de ArmonIA (cómo hacerlo)"**: ArmonIA abre tu
+carpeta **ws**; en la banda azul pulsa **Administrar** («Manage») y luego **Confiar** («Trust»). Los
+pasos están en [Tu primer día](02-tu-primer-dia.html).
 
 **Ya confié y la banda sigue ahí.**
-Abre otra vez la pantalla de confianza. Si dice que no has dado confianza a ninguna carpeta, el paso
-no se guardó: repítelo, y comprueba que eliges **ws** y no una carpeta de dentro.
+Comprueba que la carpeta abierta cuando pulsaste **Confiar** era **ws** (su nombre sale arriba, en la
+barra de VS Code) y no un proyecto de dentro. Si no, repite el paso desde el panel.
 
 **Sale una ventana de Git en inglés que pregunta por un «credential helper».**
 No debería salir con el instalador de ArmonIA. Si sale, elige **manager** y avísale a David.
@@ -69,9 +68,9 @@ No debería salir con el instalador de ArmonIA. Si sale, elige **manager** y av�
 ## En «Mis proyectos»
 
 **No sale ningún proyecto.**
-Mira primero que en **Requisitos** la **Cuenta de GitHub** esté en verde. Si te invitaron, acepta la
-invitación desde **Te esperan** o desde el correo de GitHub (mira en spam). Si tienes un código, usa
-**"ArmonIA: Tengo un código"**.
+Mira primero que en **Comandos → Requisitos** la **Cuenta de GitHub** esté en verde. Para empezar, pulsa
+**Crear mi espacio privado**. Si David te invitó a un proyecto, acéptalo desde **Te esperan** o desde el
+correo de GitHub (mira en spam). Si te mandó un código, usa **"ArmonIA: Tengo un código"**.
 
 **Me invitaron por GitHub y el recorrido me pide un código.**
 No lo necesitas: abre el panel, ve a **Mis proyectos** y pulsa **Aceptar y abrir** en **Te esperan**.
