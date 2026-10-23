@@ -1,0 +1,12 @@
+# ArmonIA
+
+> ArmonIA acompaña proyectos de personas con un agente de IA y un arquitecto. Este índice apunta a la guía y al catálogo de componentes (plantillas, expertos, herramientas, módulos y servicios), sin precios.
+
+## Guía
+
+- [Guía de ArmonIA](https://armonia.3spark.net/): cómo empezar, cómo pedir algo y qué hacer si algo falla
+
+## Catálogo
+
+- [catalogo.v1.json](https://armonia.3spark.net/catalogo.v1.json): el catálogo completo, como datos
+- (todavía no hay componentes publicados)
