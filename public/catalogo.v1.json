@@ -2,5 +2,63 @@
  "contrato": "catalogo.v1",
  "vendedor": "ArmonIA",
  "de-prueba": false,
- "componentes": []
+ "componentes": [
+  {
+   "id": "mod-tareas-periodicas",
+   "tipo": "modulo",
+   "version": "0.1.0",
+   "title": "Tareas periódicas",
+   "description": "Para quien tiene obligaciones que se repiten (facturas, impuestos, renovaciones) y no quiere olvidarlas.",
+   "tags": [
+    "tareas",
+    "recordatorios",
+    "modulo"
+   ],
+   "producto": [
+    "modulo-tareas-periodicas",
+    "modulo-tareas-periodicas-usd",
+    "modulo-tareas-periodicas-cop"
+   ],
+   "modalidad": "mensual",
+   "requisitos": [
+    "claude-pago",
+    "github"
+   ],
+   "idioma": [
+    "es-419",
+    "en",
+    "fr"
+   ],
+   "licencia": {
+    "spdx": "LicenseRef-ArmonIA-uso-por-proyecto",
+    "reventa": false,
+    "consentimiento-autor": null
+   },
+   "baja": "Si se retira, quien lo tiene conserva en su repo sus tareas, procedimientos e historial; se suspenden los recordatorios.",
+   "entrada": {
+    "frase": {
+     "es-419": "Ayúdame a anotar las obligaciones que se repiten en este proyecto.",
+     "en": "Help me list the recurring obligations in this project.",
+     "fr": "Aide-moi à noter les obligations récurrentes de ce projet."
+    }
+   },
+   "regulado": "no",
+   "curacion": {
+    "estado": "publicado",
+    "fecha": "2026-10-25"
+   },
+   "compra": {
+    "alcance": "proyecto"
+   },
+   "activar": {
+    "alcance": "proyecto",
+    "plugins": [
+     {
+      "id": "mod-tareas-periodicas@armonia",
+      "sha": "30f0227f9bc65f0d40f8c7ab92a6482d708578e0"
+     }
+    ]
+   }
+  }
+ ]
 }
