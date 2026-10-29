@@ -6,7 +6,7 @@
   {
    "id": "mod-tareas-periodicas",
    "tipo": "modulo",
-   "version": "0.1.0",
+   "version": "0.1.1",
    "title": "Tareas periódicas",
    "description": "Para quien tiene obligaciones que se repiten (facturas, impuestos, renovaciones) y no quiere olvidarlas.",
    "tags": [
@@ -55,7 +55,7 @@
     "plugins": [
      {
       "id": "mod-tareas-periodicas@armonia",
-      "sha": "30f0227f9bc65f0d40f8c7ab92a6482d708578e0"
+      "sha": "21c173862a1f00b69450583562342ebb5a780e44"
      }
     ]
    }
