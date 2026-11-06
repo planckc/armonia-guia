@@ -1,0 +1,85 @@
+/* ArmonIA en armoniared.com: la cara de la guía (acento índigo, letra del sistema). Lo genera generar_armoniared.py. */
+:root{--fondo:#ffffff;--fondo-2:#f6f6fb;--tinta:#16151f;--suave:#55546a;--tenue:#7a7990;--borde:#e3e2ef;
+--acento:#4f46e5;--acento-bajo:#e0e7ff;--acento-alto:#312e81;--sobre-acento:#ffffff;--ok:#059669;
+--radio:14px;--sombra:0 10px 30px -12px rgba(49,46,129,.35)}
+@media (prefers-color-scheme:dark){:root{--fondo:#17181c;--fondo-2:#1f2026;--tinta:#eceaf6;--suave:#b4b2c8;--tenue:#8d8ba3;
+--borde:#2f303a;--acento:#6366f1;--acento-bajo:#1e1b4b;--acento-alto:#c7d2fe;--ok:#34d399;--sombra:0 10px 30px -12px rgba(0,0,0,.6)}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--fondo);color:var(--tinta);line-height:1.6;
+font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+a{color:var(--acento)}
+.envoltura{max-width:1080px;margin:0 auto;padding:0 16px}
+.estrecha{max-width:760px}
+header.barra{border-bottom:1px solid var(--borde);background:var(--fondo)}
+header.barra .envoltura{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:60px}
+.marca{font-weight:700;font-size:1.15rem;color:var(--tinta);text-decoration:none;letter-spacing:-.01em}
+.marca span{color:var(--acento)}
+nav.menu{display:flex;gap:18px;flex-wrap:wrap}
+nav.menu a{color:var(--suave);text-decoration:none;font-size:.95rem}
+nav.menu a:hover,nav.menu a[aria-current]{color:var(--acento)}
+.ic{width:1.25em;height:1.25em;vertical-align:-.25em;flex:none}
+.heroe{padding:72px 0 56px;text-align:center;background:linear-gradient(180deg,var(--acento-bajo),var(--fondo))}
+.heroe h1{font-size:clamp(2.6rem,7vw,4.5rem);line-height:1.05;margin:0 0 18px;letter-spacing:-.03em}
+.heroe h1 span{color:var(--acento)}
+.antetitulo{display:inline-block;font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:var(--acento);font-weight:600;margin-bottom:14px}
+.heroe .frase{font-size:clamp(1.05rem,2.4vw,1.3rem);max-width:760px;margin:0 auto 12px}
+.heroe .sub{color:var(--suave);max-width:640px;margin:0 auto 28px}
+.botones{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.boton{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;font-weight:600;font-size:.95rem;
+text-decoration:none;background:var(--acento);color:var(--sobre-acento);box-shadow:var(--sombra)}
+.boton:hover{filter:brightness(1.08)}
+.boton.secundario{background:var(--fondo-2);color:var(--tinta);box-shadow:none;border:1px solid var(--borde)}
+.boton.claro{background:#fff;color:var(--acento-alto)}
+.nota{font-size:.9rem;color:var(--tenue);margin:10px 0 0}
+.nota a{color:inherit}
+section.bloque{padding:64px 0}
+section.alterno{background:var(--fondo-2)}
+.cabeza{text-align:center;margin-bottom:36px}
+.cabeza h2{font-size:clamp(1.7rem,4vw,2.4rem);line-height:1.15;margin:0 0 10px;letter-spacing:-.02em}
+.cabeza p{color:var(--suave);max-width:640px;margin:0 auto}
+.rejilla{display:grid;gap:18px}
+@media (min-width:720px){.r2{grid-template-columns:repeat(2,1fr)}.r3{grid-template-columns:repeat(3,1fr)}.r4{grid-template-columns:repeat(4,1fr)}}
+.tarjeta{background:var(--fondo);border:1px solid var(--borde);border-radius:var(--radio);padding:24px;display:flex;flex-direction:column}
+section.alterno .tarjeta{background:var(--fondo)}
+.tarjeta h3{margin:0 0 8px;font-size:1.25rem}
+.tarjeta p{margin:0;color:var(--suave)}
+.pastilla{width:44px;height:44px;border-radius:12px;background:var(--acento-bajo);color:var(--acento);display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+.paso .num{font-size:2.2rem;font-weight:700;color:var(--borde);line-height:1;margin-left:8px}
+.paso .fila{display:flex;align-items:center;margin-bottom:12px}
+.redondo{width:48px;height:48px;border-radius:50%;background:var(--acento);color:var(--sobre-acento);display:flex;align-items:center;justify-content:center}
+.lista{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+.lista li{display:flex;gap:8px;align-items:flex-start}
+.lista .ic{color:var(--acento);margin-top:.2em}
+.destacada{background:linear-gradient(135deg,var(--acento),#3730a3);color:#fff;border-radius:22px;padding:32px;display:grid;gap:28px;box-shadow:var(--sombra);margin-bottom:28px}
+@media (min-width:720px){.destacada{grid-template-columns:1fr 1fr;padding:44px}}
+.destacada h3{font-size:1.9rem;margin:6px 0 8px}
+.destacada p,.destacada li{color:rgba(255,255,255,.88)}
+.destacada .lista .ic{color:#fff}
+.destacada .nota{color:rgba(255,255,255,.72)}
+.destacada .antetitulo{color:rgba(255,255,255,.75)}
+.cifra{font-size:2.6rem;font-weight:700;letter-spacing:-.02em}
+.cifra small{font-size:.9rem;font-weight:400;opacity:.75}
+.tarjeta .cifra{font-size:2rem;color:var(--tinta)}
+.rotulo{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--tenue);margin:16px 0 6px;font-weight:600}
+.fino{font-size:.85rem;font-style:italic;color:var(--tenue)}
+.tarjeta .boton{margin-top:20px;justify-content:center}
+.tarjeta .empuje{margin-top:auto}
+details.pregunta{border:1px solid var(--borde);border-radius:12px;padding:14px 18px;background:var(--fondo);margin-bottom:10px}
+details.pregunta summary{cursor:pointer;font-weight:600}
+details.pregunta p{color:var(--suave);margin:10px 0 0}
+.franja{background:var(--acento-alto);color:#fff}
+@media (prefers-color-scheme:dark){.franja{background:#1e1b4b}}
+.franja .tarjeta{background:transparent;border-color:rgba(255,255,255,.18)}
+.franja .tarjeta p{color:rgba(255,255,255,.72)}
+.franja .pastilla{background:rgba(255,255,255,.12);color:#fff}
+.franja h2{color:#fff}
+.caja{border:2px solid var(--acento);border-radius:22px;padding:32px;text-align:center;margin-bottom:24px}
+.ok{width:60px;height:60px;border-radius:50%;margin:0 auto 18px;background:rgba(5,150,105,.14);color:var(--ok);display:flex;align-items:center;justify-content:center}
+.ok .ic{width:30px;height:30px}
+ol.pasos{list-style:none;padding:0;margin:0 0 36px;display:grid;gap:18px}
+ol.pasos li{display:flex;gap:14px}
+ol.pasos .redondo{width:42px;height:42px;flex:none}
+footer.pie{border-top:1px solid var(--borde);padding:28px 0;color:var(--tenue);font-size:.9rem}
+footer.pie .envoltura{display:flex;gap:12px 24px;flex-wrap:wrap;justify-content:space-between}
+footer.pie a{color:inherit}
