@@ -4,9 +4,9 @@
 
 ## Guía
 
-- [Guía de ArmonIA](https://armonia.3spark.net/): cómo empezar, cómo pedir algo y qué hacer si algo falla
+- [Guía de ArmonIA](https://armoniared.com/): cómo empezar, cómo pedir algo y qué hacer si algo falla
 
 ## Catálogo
 
-- [catalogo.v1.json](https://armonia.3spark.net/catalogo.v1.json): el catálogo completo, como datos
+- [catalogo.v1.json](https://armoniared.com/catalogo.v1.json): el catálogo completo, como datos
 - Tareas periódicas (`mod-tareas-periodicas`, modulo): Para quien tiene obligaciones que se repiten (facturas, impuestos, renovaciones) y no quiere olvidarlas.

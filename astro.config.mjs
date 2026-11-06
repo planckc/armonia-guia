@@ -4,7 +4,7 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
-  site: 'https://armonia.3spark.net',
+  site: 'https://armoniared.com',
   // Las direcciones de siempre (01-antes-de-empezar.html): ya van en correos y en la extensión.
   build: { format: 'file' },
   trailingSlash: 'never',

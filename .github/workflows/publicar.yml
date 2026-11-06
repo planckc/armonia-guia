@@ -1,4 +1,4 @@
-# Construye la guía con Astro Starlight y la publica en GitHub Pages (armonia.3spark.net).
+# Construye la guía con Astro Starlight y la publica en GitHub Pages (armoniared.com; armonia.3spark.net da 301 aquí desde el 6-nov, ARMO-89).
 # Pieza del catálogo: «guia-publica-armonia-pages». El contenido llega de kb-publica (publicar.mjs).
 name: Publicar la guía
 on:
